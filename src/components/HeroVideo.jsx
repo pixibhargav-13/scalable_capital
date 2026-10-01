@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 
 // Self-hosted background video. Phones get the lighter 540p file; visitors who
 // prefer reduced motion get the still poster. `name` picks the clip in
-// /public/video: 'hero-tower' (glass towers, Home) or 'hero-light' (city, About).
+// /public/video: 'hero-tower' (white and glass towers, Home) or 'hero-light' (city, About).
 export default function HeroVideo({ name = 'hero-light' }) {
   const ref = useRef(null)
   const [reduced, setReduced] = useState(() =>
