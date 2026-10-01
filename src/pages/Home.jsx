@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <section className="hero hero-full hero-overlay-text hero-light">
         <div className="hero-image">
-          <HeroVideo />
+          <HeroVideo name="hero-room" />
         </div>
         <div className="hero-overlay"></div>
 

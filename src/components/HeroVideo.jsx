@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 
-// Self-hosted background video (brightened colour grade). Phones get the
-// lighter 540p file; visitors who prefer reduced motion get the still poster.
-export default function HeroVideo() {
+// Self-hosted background video. Phones get the lighter 540p file; visitors who
+// prefer reduced motion get the still poster. `name` picks the clip in
+// /public/video: 'hero-room' (white room, Home) or 'hero-light' (city, About).
+export default function HeroVideo({ name = 'hero-light' }) {
   const ref = useRef(null)
   const [reduced, setReduced] = useState(() =>
     typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches,
@@ -35,11 +36,11 @@ export default function HeroVideo() {
       loop
       playsInline
       preload="auto"
-      poster="/video/hero-light-poster.jpg"
+      poster={`/video/${name}-poster.jpg`}
       aria-hidden="true"
     >
-      <source src="/video/hero-light-540.mp4" type="video/mp4" media="(max-width: 700px)" />
-      <source src="/video/hero-light-1080.mp4" type="video/mp4" />
+      <source src={`/video/${name}-540.mp4`} type="video/mp4" media="(max-width: 700px)" />
+      <source src={`/video/${name}-1080.mp4`} type="video/mp4" />
     </video>
   )
 }
