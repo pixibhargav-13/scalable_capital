@@ -220,22 +220,8 @@ footer{border-top:1px solid var(--line);padding:40px 0 45px;color:#777a72;font-s
 .hero-overlay-text.hero-light .hero-image video,
 .hero-overlay-text.hero-light .hero-image img{filter:none}
 .hero-overlay-text.hero-light .hero-overlay{background:linear-gradient(90deg,rgba(246,245,240,.3),rgba(246,245,240,.08) 38%,transparent 55%)}
-/* Readable type over the moving video without a heavy white wash: deeper
-   colours, heavier weights and a tight light halo hugging each letter. */
-.hero-overlay-text.hero-light .hero-content h1,
-.hero-overlay-text.hero-light .hero-content p,
-.hero-overlay-text.hero-light .hero-content .eyebrow,
-.hero-overlay-text.hero-light .hero-meta{text-shadow:0 0 2px rgba(246,245,240,.95),0 0 10px rgba(246,245,240,.9),0 0 26px rgba(246,245,240,.75)}
-.hero-overlay-text.hero-light .hero-content:before{content:"";position:absolute;z-index:-1;left:-90px;top:20px;bottom:-70px;width:min(1000px,calc(100% + 90px));pointer-events:none;background:rgba(246,245,240,.16);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);-webkit-mask-image:radial-gradient(ellipse 62% 58% at 42% 52%,#000 45%,transparent 100%);mask-image:radial-gradient(ellipse 62% 58% at 42% 52%,#000 45%,transparent 100%)}
-.hero-overlay-text.hero-light .hero-content .eyebrow{color:#5f4819;font-weight:800}
-.hero-overlay-text.hero-light .hero-content h1{color:#0d0e0c}
-.hero-overlay-text.hero-light .hero-content h1 em{color:#5f4819}
-.hero-overlay-text.hero-light .hero-content p{font-weight:500}
-.hero-overlay-text.hero-light .hero-actions .btn:not(.primary){background:rgba(246,245,240,.88);border-color:var(--ink);color:var(--ink);backdrop-filter:blur(6px)}
-.hero-overlay-text.hero-light .hero-actions .btn:not(.primary):hover{background:var(--ink);color:var(--ivory)}
-.hero-overlay-text.hero-light .hero-meta{color:#1c1d19;font-weight:600}
 .hero-light .eyebrow,.hero-light h1 em{color:#8e7138}
-.hero-overlay-text.hero-light .hero-content p{color:#151611}
+.hero-overlay-text.hero-light .hero-content p{color:#3b3d36}
 .hero-light .btn{color:var(--ink);border-color:var(--ink)}
 .hero-light .btn.primary{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
 .hero-light .hero-meta{color:rgba(17,18,15,.6)}
