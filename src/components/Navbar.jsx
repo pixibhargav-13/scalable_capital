@@ -14,7 +14,8 @@ export default function Navbar() {
     <nav>
       <div className="container nav">
         <Link className="logo" to="/" aria-label={site.name}>
-          <img src={logo} alt="Scalability Capital logo" />
+          <img src={logo} alt="" />
+          <span className="logo-word">SCALABILITY <span>CAPITAL</span></span>
         </Link>
 
         <div className="links">

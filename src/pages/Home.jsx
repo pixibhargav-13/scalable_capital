@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import HeroVideo from '../components/HeroVideo'
 import marbleStairs from '../assets/marble-stairs.jpg'
+import mountainTerrace from '../assets/mountain-terrace.jpg'
 import ScalableFramework from '../components/ScalableFramework'
 
 const frameworkSteps = [
@@ -74,7 +75,7 @@ export default function Home() {
                 src={marbleStairs}
                 alt="Marble staircase rising through light-filled modern architecture"
               />
-              <div className="photo-caption">Architecture / Capital / Perspective</div>
+              <div className="photo-caption photo-caption-lg">Your Growth Partner</div>
             </div>
             <div className="photo-copy">
               <div className="eyebrow">01 — Build wealth through business</div>
@@ -111,14 +112,14 @@ export default function Home() {
           <div className="editorial-grid">
             <div className="photo">
               <img
-                src="https://images.unsplash.com/photo-1622131815379-476bbefa631c?auto=format&fit=crop&w=1800&q=90"
-                alt="Calm, sunlit interior with natural light"
+                src={mountainTerrace}
+                alt="Marble terrace overlooking a mountain lake at sunset"
               />
               <div className="photo-caption">Private Wealth / Long-Term Capital</div>
             </div>
             <div className="editorial-copy">
               <div className="eyebrow">02 — Grow &amp; preserve capital</div>
-              <h3>Capital, thoughtfully <em>allocated.</em></h3>
+              <h3>Wealth, strategically <em>compounded.</em></h3>
               <p>A broader view of wealth — connecting diversification, liquidity, risk and long-term objectives.</p>
               <Link className="btn" to="/wealth">Private Wealth →</Link>
             </div>

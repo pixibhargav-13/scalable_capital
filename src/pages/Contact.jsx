@@ -48,7 +48,7 @@ export default function Contact() {
                 <a href={`https://${site.domain}`}>{site.domain}</a>
               </p>
 
-              <p style={{ marginTop: 22 }}>Business advisory, strategic finance and private wealth conversations. We typically respond within one business day.</p>
+              <p style={{ marginTop: 22 }}>Business advisory, strategic finance and private wealth conversations.</p>
             </div>
           </div>
         </div>

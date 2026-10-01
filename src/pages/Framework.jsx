@@ -23,14 +23,14 @@ export default function Framework() {
       <section className="hero">
         <div className="container">
           <div className="eyebrow">Our Approach</div>
-          <h1>The <em>Scalable</em><br />Framework.</h1>
+          <h1>The <em>SCALABLE</em><br />Framework.</h1>
           <p>A practical operating philosophy for building stronger financial foundations, making better decisions and scaling with discipline.</p>
         </div>
       </section>
 
       <ScalableFramework steps={steps} intro={false} />
 
-      <section>
+      <section className="dark framework-phases">
         <div className="container">
           <div className="section-head">
             <h2>Designed to move from insight to <em>execution.</em></h2>

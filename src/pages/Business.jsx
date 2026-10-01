@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import mountainTerrace from '../assets/mountain-terrace.jpg'
 
 const services = [
   ['01', 'Financial Strategy & FP&A', 'Budgeting, forecasting, management reporting, scenario planning and financial models.'],
@@ -43,8 +44,8 @@ export default function Business() {
           <div className="editorial-grid">
             <div className="photo">
               <img
-                src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?auto=format&fit=crop&w=1800&q=90"
-                alt="Stacked white architecture against a bright sky"
+                src={mountainTerrace}
+                alt="Marble terrace overlooking a mountain lake at sunset"
               />
               <div className="photo-caption">Structure / Precision / Growth</div>
             </div>

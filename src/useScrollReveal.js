@@ -12,7 +12,7 @@ const SELECTORS = [
   'main .contact-layout > *',
   'main .editorial-grid',
   'main .image-band',
-  'main .journey',
+  'main .framework',
   'main .list-item',
   'main .cta-box',
   'main .dark-panel',

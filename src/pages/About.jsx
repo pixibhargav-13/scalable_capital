@@ -1,3 +1,5 @@
+import HeroVideo from '../components/HeroVideo'
+
 const values = [
   ['01', 'Independent Thinking', 'Focus on the underlying economics and the decisions that matter.'],
   ['02', 'Practical Partnership', 'Work alongside management rather than simply deliver reports.'],
@@ -7,8 +9,13 @@ const values = [
 export default function About() {
   return (
     <>
-      <section className="hero">
-        <div className="container">
+      <section className="hero hero-full hero-overlay-text hero-light hero-about">
+        <div className="hero-image">
+          <HeroVideo />
+        </div>
+        <div className="hero-overlay"></div>
+
+        <div className="container hero-content">
           <div className="eyebrow">About Scalability Capital</div>
           <h1>More than advisors.<br />A partner for the <em>next stage.</em></h1>
           <p>We believe financial expertise should help people and businesses make better decisions — not simply explain the past.</p>
@@ -33,8 +40,8 @@ export default function About() {
           <div className="editorial-grid">
             <div className="photo">
               <img
-                src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1800&q=90"
-                alt="Bright contemporary office with natural light and plants"
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1800&q=90"
+                alt="Bright, calm lounge with soft daylight and tall windows"
               />
               <div className="photo-caption">The Scalability Capital Perspective</div>
             </div>

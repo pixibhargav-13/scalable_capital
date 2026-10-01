@@ -12,7 +12,7 @@ export const insights = [
     excerpt: 'Revenue can tell you how fast you are moving. Cash tells you whether you can keep moving.',
     date: '15 Sep 2026',
     readTime: '6 min read',
-    image: img('1464938050520-ef2270bb8ce8'),
+    image: img('1545324418-cc1a3fa10c00'),
     caption: 'Liquidity / Resilience / Momentum',
     body: [
       { p: 'Revenue is the number most founders quote first. It is visible, easy to celebrate and, for many businesses, the headline metric investors ask about. But revenue is a measure of activity. It does not tell you whether the business can pay its people on Friday, fund the next hire or survive a slow quarter.' },
