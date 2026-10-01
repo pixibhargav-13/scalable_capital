@@ -219,7 +219,7 @@ footer{border-top:1px solid var(--line);padding:40px 0 45px;color:#777a72;font-s
 .hero-light{color:var(--ink)}
 .hero-overlay-text.hero-light .hero-image video,
 .hero-overlay-text.hero-light .hero-image img{filter:none}
-.hero-overlay-text.hero-light .hero-overlay{background:linear-gradient(90deg,rgba(246,245,240,.55),rgba(246,245,240,.2) 40%,transparent 62%)}
+.hero-overlay-text.hero-light .hero-overlay{background:linear-gradient(90deg,rgba(246,245,240,.3),rgba(246,245,240,.08) 38%,transparent 55%)}
 /* Soft halo behind the type instead of a heavy white wash over the video */
 .hero-overlay-text.hero-light .hero-content h1,.hero-overlay-text.hero-light .hero-content p,.hero-overlay-text.hero-light .hero-content .eyebrow{text-shadow:0 0 18px rgba(246,245,240,.85),0 0 42px rgba(246,245,240,.55)}
 .hero-overlay-text.hero-light .hero-content h1 em{color:#7a5f2c}
@@ -278,7 +278,7 @@ footer{border-top:1px solid var(--line);padding:40px 0 45px;color:#777a72;font-s
   .hero-overlay-text .hero-content{padding-top:55px}
   .hero-overlay-text .hero-content h1{font-size:53px}
   .hero-overlay-text .hero-content p{font-size:15px}
-  .hero-overlay-text.hero-light .hero-overlay{background:rgba(246,245,240,.4)}
+  .hero-overlay-text.hero-light .hero-overlay{background:rgba(246,245,240,.22)}
   .mobile-links.open{top:68px}
 }
 
