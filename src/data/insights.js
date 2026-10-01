@@ -2,7 +2,7 @@
 // Body blocks: { p }, { h2 }, { quote }, { list: [...] }
 const img = (id) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=2000&q=88`
 
-export const categories = ['All', 'Business', 'Finance', 'Wealth']
+export const categories = ['All', 'Business', 'Finance']
 
 export const insights = [
   {
@@ -32,63 +32,6 @@ export const insights = [
       { h2: 'Turning cash into a strategic advantage' },
       { p: 'When leadership can see cash clearly, decisions change. Hiring can be timed with confidence. Supplier negotiations happen from a position of strength. Opportunities — an acquisition, a new market, a bulk purchase at a discount — can be acted on quickly instead of being lost to uncertainty.' },
       { p: 'Revenue will always matter. But the businesses that scale sustainably are the ones that understand a simple truth early: momentum is funded by cash, and cash rewards those who plan for it.' },
-    ],
-  },
-  {
-    slug: 'the-cfos-role-in-a-scaling-business',
-    category: 'Finance',
-    title: "The CFO's Role in a Scaling Business",
-    excerpt: 'When finance moves from reporting the past to shaping the future.',
-    date: '2 Sep 2026',
-    readTime: '5 min read',
-    image: img('1497215842964-222b430dc094'),
-    caption: 'Leadership / Discipline / Perspective',
-    body: [
-      { p: 'In the early life of a business, finance is mostly about keeping score. Invoices go out, bills get paid, the accounts are filed and the numbers are reviewed — usually weeks after the month has closed.' },
-      { p: 'That is appropriate at the start. But at some point, the questions leadership is asking change. It is no longer “what happened last month?” but “what should we do next?” That is the moment a business needs CFO-level thinking.' },
-      { h2: 'From historian to navigator' },
-      { p: 'A bookkeeper or accountant records what happened. A CFO helps decide what happens next. The shift is from reporting to decision support — connecting the numbers to strategy, pricing, hiring, capital and risk.' },
-      { quote: 'The value of finance is highest at the moment a decision is being made — not weeks after it.' },
-      { h2: 'Signs a business has outgrown its finance function' },
-      { list: [
-        'Leadership makes major decisions without a clear view of their financial impact.',
-        'Month-end reporting arrives too late to be useful.',
-        'Cash surprises — good or bad — happen more than once a year.',
-        'Investors, lenders or partners ask questions the business struggles to answer quickly.',
-        'Growth is happening, but no one can say with confidence which parts are profitable.',
-      ] },
-      { h2: 'Why fractional leadership often fits best' },
-      { p: 'Not every business needs, or can justify, a full-time CFO. A fractional CFO brings senior experience for the time the business actually needs — building the forecast, designing the KPI framework, preparing for a raise, or professionalising reporting — without the cost of a permanent executive hire.' },
-      { p: 'The goal is the same either way: a finance function that becomes a competitive advantage, helping the business move faster because it can see further.' },
-    ],
-  },
-  {
-    slug: 'think-beyond-the-individual-investment',
-    category: 'Wealth',
-    title: 'Think Beyond the Individual Investment',
-    excerpt: "Why wealth strategy starts with the portfolio's role in the broader capital plan.",
-    date: '20 Aug 2026',
-    readTime: '6 min read',
-    image: img('1463130456064-77fda7f96d6b'),
-    caption: 'Private Wealth / Perspective / Legacy',
-    body: [
-      { p: 'Most investment conversations begin with a product: a fund, a stock, a private opportunity, a property. The question is usually some version of “is this a good investment?”' },
-      { p: 'It is a reasonable question, but it is the wrong place to start. An investment can be excellent in isolation and still be a poor fit for the person holding it.' },
-      { h2: 'Every investment should have a job' },
-      { p: 'A thoughtful capital plan assigns a purpose to each part of a portfolio. Some capital is there to provide liquidity and security. Some is there to grow steadily over decades. Some — a smaller portion, sized carefully — may pursue higher returns with higher risk.' },
-      { p: 'When each holding has a clear role, decisions become simpler. The question shifts from “is this good?” to “does this do the job we need, better than what we already have?”' },
-      { quote: 'The objective is not simply to own more. It is to allocate capital intentionally, with a clear view of what each investment is meant to achieve.' },
-      { h2: 'The questions that come first' },
-      { list: [
-        'What are the goals, and when will capital be needed to meet them?',
-        'How much liquidity is required for comfort and for opportunity?',
-        'How much volatility can be tolerated — financially and emotionally?',
-        'How concentrated is existing wealth, for example in a family business or property?',
-        'How do public and private market exposures balance each other?',
-      ] },
-      { h2: 'Diversification is a design choice' },
-      { p: 'Diversification is often described as not putting all your eggs in one basket. In practice it is more deliberate than that: it is designing a portfolio whose parts behave differently in different conditions, so the whole is more resilient than any single component.' },
-      { p: 'A coherent capital strategy will not eliminate uncertainty. But it replaces a collection of individual decisions with a structure — one that can be reviewed, adjusted and relied upon as circumstances evolve.' },
     ],
   },
   {
@@ -143,33 +86,6 @@ export const insights = [
       { h2: 'Profitability is rarely evenly spread' },
       { p: 'One of the most valuable exercises a growing business can do is to understand profitability by customer, product and channel. It is common to find that a minority of activity generates most of the profit — and that some growth is quietly destroying value.' },
       { p: 'With that clarity, strategy sharpens. Resources flow to what works, pricing gets revisited and the business grows more profitably, not just faster.' },
-    ],
-  },
-  {
-    slug: 'liquidity-time-horizon-and-the-architecture-of-wealth',
-    category: 'Wealth',
-    title: 'Liquidity, Time Horizon and the Architecture of Wealth',
-    excerpt: 'Why the timing of when you need capital shapes almost every allocation decision.',
-    date: '8 Jul 2026',
-    readTime: '5 min read',
-    image: img('1561518663-f32e0091b049'),
-    caption: 'Capital / Time / Structure',
-    body: [
-      { p: 'Two investors can hold identical portfolios and experience them completely differently. The difference is rarely the investments themselves. It is when each investor needs the money.' },
-      { p: 'Time horizon and liquidity are the foundations of wealth architecture. Get them right, and short-term volatility becomes something to tolerate rather than fear. Get them wrong, and even good investments can be sold at the worst possible moment.' },
-      { h2: 'Matching capital to its purpose' },
-      { p: 'A useful way to think about wealth is in layers, each defined by when it may be needed:' },
-      { list: [
-        'Near-term capital — funds for known commitments and a comfortable reserve, held for stability and access.',
-        'Medium-term capital — goals a few years away, balanced between growth and preservation.',
-        'Long-term capital — wealth intended to compound over a decade or more, where volatility matters less than growth.',
-      ] },
-      { quote: 'Liquidity is not idle money. It is what allows long-term capital to stay invested through difficult markets.' },
-      { h2: 'The role of private markets' },
-      { p: 'Private market investments can offer diversification and access to opportunities not available publicly. But they are often illiquid for years. They belong in the long-term layer, sized so that the rest of the plan never depends on getting that capital back early.' },
-      { h2: 'Review, don’t react' },
-      { p: 'Circumstances change — a business is sold, a family grows, goals shift. A well-designed structure is reviewed regularly and adjusted deliberately, rather than rebuilt in response to every market headline.' },
-      { p: 'Wealth, built this way, becomes a long-term architecture: intentional, resilient and designed to last.' },
     ],
   },
 ]
