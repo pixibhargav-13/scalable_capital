@@ -12,7 +12,7 @@ export default function ScalableFramework({ steps, intro = true }) {
           <div className="section-head">
             <div>
               <div className="eyebrow">Our signature approach</div>
-              <h2>The <strong>SCALABLE</strong> Framework</h2>
+              <h2>The <em>SCALABLE</em> Framework</h2>
             </div>
             <p>Our signature approach to moving businesses from financial complexity to clarity and scalable growth.</p>
           </div>
@@ -31,7 +31,7 @@ export default function ScalableFramework({ steps, intro = true }) {
 
         {intro && (
           <div className="framework-foot">
-            <p><strong>SCALABLE</strong> is the operating philosophy behind how we create durable financial and strategic advantage.</p>
+            <p><em>SCALABLE</em> is the operating philosophy behind how we create durable financial and strategic advantage.</p>
             <Link className="btn" to="/framework">Explore our approach →</Link>
           </div>
         )}

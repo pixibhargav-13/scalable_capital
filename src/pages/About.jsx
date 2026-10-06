@@ -11,7 +11,7 @@ export default function About() {
     <>
       <section className="hero hero-full hero-overlay-text hero-light hero-about">
         <div className="hero-image">
-          <HeroVideo />
+          <HeroVideo name="hero-room" />
         </div>
         <div className="hero-overlay"></div>
 
@@ -35,19 +35,19 @@ export default function About() {
         </div>
       </section>
 
-      <section>
+      <section style={{ paddingTop: 0, paddingBottom: 80 }}>
         <div className="container">
           <div className="editorial-grid">
             <div className="photo">
               <img
-                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1800&q=90"
-                alt="Bright, calm lounge with soft daylight and tall windows"
+                src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=90"
+                alt="Light-filled boardroom with a long table and floor-to-ceiling windows"
               />
               <div className="photo-caption">The Scalability Capital Perspective</div>
             </div>
             <div className="editorial-copy">
               <div className="eyebrow">Our philosophy</div>
-              <h3>Clarity over complexity.<br /><em>Long term over short term.</em></h3>
+              <h3>Structure<br />Strategy<br /><em>Scale</em></h3>
               <p>Premium financial advice should feel calm, precise and useful — with enough depth to support important decisions without unnecessary complexity.</p>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function About() {
 
       <section className="dark">
         <div className="container">
-          <div className="section-head">
+          <div className="section-head" style={{ alignItems: 'center' }}>
             <h2>Clarity over complexity.<br /><em>Long term over short term.</em></h2>
             <p>Our work is grounded in disciplined analysis, practical execution and a long-term view of value creation.</p>
           </div>

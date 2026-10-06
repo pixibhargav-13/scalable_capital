@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <section className="hero hero-full hero-overlay-text hero-light">
         <div className="hero-image">
-          <HeroVideo name="hero-tower" />
+          <HeroVideo />
         </div>
         <div className="hero-overlay"></div>
 
@@ -67,23 +67,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section style={{ paddingTop: 0 }}>
         <div className="container">
-          <div className="image-band">
+          <div className="editorial-grid">
             <div className="photo">
               <img
                 src={marbleStairs}
                 alt="Marble staircase rising through light-filled modern architecture"
               />
-              <div className="photo-caption photo-caption-lg">Your Growth Partner</div>
+              <div className="photo-caption">Business / Your Growth Partner</div>
             </div>
-            <div className="photo-copy">
+            <div className="editorial-copy">
               <div className="eyebrow">01 — Build wealth through business</div>
-              <h2 style={{ fontSize: 'clamp(35px,4vw,56px)', lineHeight: '.94', letterSpacing: '-.05em', margin: '0 0 18px' }}>
-                A finance function should become a <em>competitive advantage.</em>
-              </h2>
+              <h3>A finance function should become a <em>competitive advantage.</em></h3>
               <p>We connect planning, performance, cash flow and strategy so leadership can make better decisions with confidence.</p>
-              <Link className="btn" style={{ borderColor: '#d8d4c8', color: '#f5f3ed', alignSelf: 'flex-start' }} to="/business">Business Solutions →</Link>
+              <Link className="btn" to="/business">Business Solutions →</Link>
             </div>
           </div>
         </div>
@@ -91,23 +89,24 @@ export default function Home() {
 
       <ScalableFramework steps={frameworkSteps} />
 
-      <section>
+      <section className="wealth-intro-section">
         <div className="container">
-          <div className="section-head">
-            <h2>Capital, thoughtfully <em>allocated.</em></h2>
-            <p>Private wealth solutions built around objectives, diversification, risk and long-term outcomes.</p>
-          </div>
-          <div className="split">
-            <div className="big">From creating wealth to <em>compounding it.</em></div>
-            <div className="copy">
-              <p>We help individuals and families evaluate suitable public and private investment opportunities and build a coherent capital strategy.</p>
-              <Link className="btn" to="/wealth">Explore Private Wealth →</Link>
+          <div className="wealth-intro">
+            <div className="wealth-intro-head">
+              <h2>Capital, thoughtfully <em>allocated.</em></h2>
+              <span className="wealth-intro-rule" aria-hidden="true" />
+              <p className="wealth-intro-sub">From creating wealth to<br /><em>compounding it.</em></p>
+            </div>
+            <div className="wealth-intro-copy">
+              <p>Private wealth solutions built around your objectives, diversification, risk and long-term outcomes.</p>
+              <p>We help individuals and families evaluate suitable investment opportunities and build a coherent capital strategy.</p>
+              <Link className="btn wealth-intro-btn" to="/wealth">Explore Private Wealth <span aria-hidden="true">→</span></Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <section style={{ paddingTop: 0 }}>
         <div className="container">
           <div className="editorial-grid">
             <div className="photo">

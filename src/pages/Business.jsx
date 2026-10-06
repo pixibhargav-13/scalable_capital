@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import mountainTerrace from '../assets/mountain-terrace.jpg'
+import businessArchitecture from '../assets/business-architecture.jpg'
 
 const services = [
   ['01', 'Financial Strategy & FP&A', 'Budgeting, forecasting, management reporting, scenario planning and financial models.'],
@@ -39,13 +39,13 @@ export default function Business() {
         </div>
       </section>
 
-      <section>
+      <section style={{ paddingTop: 0 }}>
         <div className="container">
           <div className="editorial-grid">
             <div className="photo">
               <img
-                src={mountainTerrace}
-                alt="Marble terrace overlooking a mountain lake at sunset"
+                src={businessArchitecture}
+                alt="Modern financial architecture with strong geometric lines"
               />
               <div className="photo-caption">Structure / Precision / Growth</div>
             </div>

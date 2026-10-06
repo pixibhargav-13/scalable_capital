@@ -67,7 +67,7 @@ button.btn{font-family:inherit;background-color:transparent;color:inherit}
 .form-error a{text-decoration:underline}
 .form-done{border-top:1px solid var(--line);padding-top:30px}
 .form-done h3{font-size:clamp(28px,3vw,40px);line-height:1;letter-spacing:-.04em;margin:0 0 14px}
-.form-done h3 em{font-family:var(--serif);font-weight:400;color:#8e7138}
+.form-done h3 em{font-family:var(--serif);font-weight:400;color:var(--gold2)}
 .form-done p{color:var(--soft)}
 .contact-line{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .wa-inline{font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--gold2);border:1px solid rgba(198,161,91,.5);border-radius:999px;padding:4px 10px}
@@ -115,7 +115,7 @@ button.btn{font-family:inherit;background-color:transparent;color:inherit}
 .featured-insight .photo img{position:absolute;inset:0;transition:transform 1.2s cubic-bezier(.22,1,.36,1)}
 @media(max-width:900px){.featured-insight .photo{height:300px}}
 .featured-insight:hover .photo img{transform:scale(1.04)}
-.insight-meta{font-size:10px;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:#8e7138;margin-bottom:14px}
+.insight-meta{font-size:10px;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:var(--gold2);margin-bottom:14px}
 .filter-chips{display:flex;gap:10px;flex-wrap:wrap;margin:-18px 0 34px}
 .chip{font:inherit;font-size:12px;font-weight:700;padding:9px 18px;border-radius:999px;border:1px solid #cfcfc6;background:transparent;color:#555850;cursor:pointer;transition:all .25s ease}
 .chip:hover{border-color:var(--ink);color:var(--ink)}
@@ -130,7 +130,7 @@ button.btn{font-family:inherit;background-color:transparent;color:inherit}
 .insight-body{padding:26px 26px 28px;display:flex;flex-direction:column;flex:1}
 .insight-body h3{font-size:21px;line-height:1.15;letter-spacing:-.035em;margin:0 0 12px}
 .insight-body p{color:var(--soft);font-size:13px;margin:0 0 20px}
-.insight-link{margin-top:auto;color:#8e7138;font-size:12px;font-weight:700}
+.insight-link{margin-top:auto;color:var(--gold2);font-size:12px;font-weight:700}
 .insight-grid.on-dark .insight-card{background:#141511;border-color:#2b2d26}
 .insight-grid.on-dark .insight-card:hover{border-color:rgba(198,161,91,.5);box-shadow:none}
 .insight-grid.on-dark .insight-body h3{color:#f5f3ed}
@@ -173,6 +173,25 @@ button.btn{font-family:inherit;background-color:transparent;color:inherit}
   .wa-float{right:16px;bottom:16px}
   .wa-button{width:54px;height:54px}
   .wa-panel{width:min(290px,calc(100vw - 32px))}
+}
+/* Home: Private Wealth intro (two columns, divider) */
+.wealth-intro{display:grid;grid-template-columns:1.25fr 1fr;align-items:center}
+.wealth-intro-head{padding-right:56px;border-right:1px solid var(--line)}
+.wealth-intro-head h2{font-size:clamp(38px,4.4vw,62px);line-height:1;letter-spacing:-.05em;font-weight:800;margin:0}
+.wealth-intro-head h2 em,.wealth-intro-sub em{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.03em;color:#8a6a35}
+.wealth-intro-rule{display:block;width:70px;height:2px;background:var(--gold);margin:30px 0}
+.wealth-intro-sub{font-size:clamp(26px,3vw,42px);line-height:1.05;letter-spacing:-.04em;font-weight:500;margin:0}
+.wealth-intro-copy{padding-left:76px}
+.wealth-intro-copy p{color:var(--soft);font-size:17px;line-height:1.6;max-width:470px;margin:0 0 26px}
+.wealth-intro-btn{border-color:var(--gold);padding:15px 28px;font-size:15px;margin-top:4px}
+.wealth-intro-btn:hover{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.wealth-intro-btn span{margin-left:8px}
+@media(max-width:900px){
+  .wealth-intro{grid-template-columns:1fr;gap:32px}
+  .wealth-intro-head{padding-right:0;border-right:0}
+  .wealth-intro-copy{padding-left:0;padding-top:32px;border-top:1px solid var(--line)}
+  .wealth-intro-copy p{font-size:16px;margin-bottom:24px}
+  .wealth-intro-rule{margin:28px 0}
 }
 @media(prefers-reduced-motion:reduce){
   .wa-button:before{animation:none}

@@ -30,7 +30,7 @@ export default function Wealth() {
         </div>
       </section>
 
-      <section>
+      <section style={{ paddingTop: 0 }}>
         <div className="container">
           <div className="editorial-grid">
             <div className="photo">
@@ -69,14 +69,13 @@ export default function Wealth() {
         </div>
       </section>
 
-      <section>
+      <section style={{ paddingTop: 48 }}>
         <div className="container">
           <div className="dark-panel">
             <div className="eyebrow">Private Wealth</div>
-            <h2 style={{ fontSize: 'clamp(35px,4vw,55px)', lineHeight: '.95', letterSpacing: '-.05em' }}>
+            <h2 style={{ fontSize: 'clamp(35px,4vw,55px)', lineHeight: '.95', letterSpacing: '-.05em', marginBottom: 0 }}>
               The objective isn't simply to <span className="gold">own more.</span><br />It's to allocate better.
             </h2>
-            <p>Investment services and activities should be described and delivered in accordance with the applicable regulatory framework and client suitability requirements.</p>
           </div>
         </div>
       </section>
