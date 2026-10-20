@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import businessArchitecture from '../assets/business-architecture.jpg'
+import businessArchitecture from '../assets/business-pavilion.jpg'
 
 const services = [
   ['01', 'Financial Strategy & FP&A', 'Budgeting, forecasting, management reporting, scenario planning and financial models.'],
@@ -24,8 +24,8 @@ export default function Business() {
       <section>
         <div className="container">
           <div className="section-head">
-            <h2>From numbers to <em>decisions.</em></h2>
-            <p>Our services are designed to work together, not as disconnected projects.</p>
+            <h2>Insight that moves business <em>forward.</em></h2>
+            <p>We transform financial information into actionable insights that support stronger decisions and long-term value creation.</p>
           </div>
           <div className="grid">
             {services.map(([no, title, desc]) => (
@@ -45,14 +45,14 @@ export default function Business() {
             <div className="photo">
               <img
                 src={businessArchitecture}
-                alt="Modern financial architecture with strong geometric lines"
+                alt="White curved pavilion by the water at sunrise, city skyline behind"
               />
               <div className="photo-caption">Structure / Precision / Growth</div>
             </div>
             <div className="editorial-copy">
               <div className="eyebrow">How we work</div>
               <h3>From numbers to <em>decisions.</em></h3>
-              <p>Our role is to make finance useful at the moment a decision is being made — not weeks after it.</p>
+              <p>Our role is to turn financial data into timely, actionable insights that help businesses make informed decisions and move forward with confidence.</p>
             </div>
           </div>
         </div>

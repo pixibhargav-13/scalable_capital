@@ -1,3 +1,4 @@
+import wealthColonnade from '../assets/wealth-colonnade.jpg'
 const areas = [
   ['01', 'Private Markets', 'Evaluate private equity and selected private-market opportunities where appropriate.'],
   ['02', 'Public Investments', 'Build diversified exposure through mutual funds and other market-based investments.'],
@@ -12,7 +13,7 @@ export default function Wealth() {
         <div className="container">
           <div className="eyebrow">Private Wealth</div>
           <h1>Capital, thoughtfully <em>allocated.</em></h1>
-          <p>We help individuals and families approach wealth as a connected capital strategy — not a collection of individual investments.</p>
+          <p>We help individuals and families to build a cohesive wealth strategy aligned with their long-term goals, priorities, and vision for the future.</p>
         </div>
       </section>
 
@@ -35,8 +36,8 @@ export default function Wealth() {
           <div className="editorial-grid">
             <div className="photo">
               <img
-                src="https://images.unsplash.com/photo-1500004621732-74cd4ad4d53e?auto=format&fit=crop&w=1800&q=90"
-                alt="Light-filled white architectural corridor"
+                src={wealthColonnade}
+                alt="White marble colonnade along the water at sunrise"
               />
               <div className="photo-caption">Private Wealth / Perspective / Legacy</div>
             </div>

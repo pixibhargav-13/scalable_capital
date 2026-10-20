@@ -11,7 +11,7 @@ export default function About() {
     <>
       <section className="hero hero-full hero-overlay-text hero-light hero-about">
         <div className="hero-image">
-          <HeroVideo name="hero-room" />
+          <HeroVideo name="hero-spire" />
         </div>
         <div className="hero-overlay"></div>
 

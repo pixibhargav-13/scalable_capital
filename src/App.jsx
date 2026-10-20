@@ -31,7 +31,7 @@ export default function App() {
       <Preloader />
       <ScrollToTop />
       <Navbar />
-      <main>
+      <main key={pathname} className="page-transition">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/business" element={<Business />} />
