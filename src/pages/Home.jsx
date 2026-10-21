@@ -18,9 +18,9 @@ const frameworkSteps = [
 export default function Home() {
   return (
     <>
-      <section className="hero hero-full hero-overlay-text hero-light">
+      <section className="hero hero-full hero-overlay-text hero-home">
         <div className="hero-image">
-          <HeroVideo />
+          <HeroVideo name="hero-dusk" hd />
         </div>
         <div className="hero-overlay"></div>
 

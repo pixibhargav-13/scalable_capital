@@ -293,3 +293,10 @@ footer{border-top:1px solid var(--line);padding:40px 0 45px;color:#777a72;font-s
 .page-transition{animation:sc-page-in .6s cubic-bezier(.22,.61,.36,1) both}
 @keyframes sc-page-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){.page-transition{animation:none}}
+
+/* Home: full-colour video, dark shade only behind the text on the left */
+.hero-overlay-text.hero-home .hero-image video{filter:saturate(1.05) contrast(1.03)}
+.hero-overlay-text.hero-home .hero-overlay{background:linear-gradient(90deg,rgba(6,7,6,.86) 0%,rgba(6,7,6,.68) 30%,rgba(6,7,6,.24) 53%,transparent 71%),linear-gradient(0deg,rgba(6,7,6,.35),transparent 30%)}
+@media(max-width:700px){
+  .hero-overlay-text.hero-home .hero-overlay{background:linear-gradient(0deg,rgba(6,7,6,.78),rgba(6,7,6,.5) 60%,rgba(6,7,6,.3))}
+}
